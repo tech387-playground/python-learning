@@ -16,7 +16,7 @@ WEEK 1 TASKS - Python Basics:
 6. Write a program that calculates the length of a string.
 - Sample value: I am my moon
 - Expected Result : 12
-7. Write a program to find sample word in a string.
+7. Write a program to find word in a string.
 - Sample string: Today was a good day.
 - Sample word: good
 - Expected Result : True
