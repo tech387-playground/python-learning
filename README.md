@@ -1,7 +1,7 @@
 WEEK 1 TASKS - Python Basics:
 1. Write a program that, between two numbers, prints the one with higher value
-Sample values: 5, 87
-Expected Result : 87
+- Sample values: 5, 87
+- pected Result : 87
 2. Write a program that prints True or False whether a number is within 1000 or 2000(both upper and lower limit included).
 Sample value: 1303
 Expected Result : True
