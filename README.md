@@ -13,8 +13,7 @@ WEEK 1 TASKS - Python Basics:
 - Expected Result : 432000 seconds
 5. Write a Python program to display the current date and time.
 - Sample Output :
-- Current date and time :
-  2014-07-05 14:34:14
+- Current date and time : 2014-07-05 14:34:14
 6. Write a program that calculates the length of a string.
 - Sample value: I am my moon
 - Expected Result : 12
