@@ -11,7 +11,7 @@ WEEK 1 TASKS - Python Basics:
 4. Write a program that calculates number of seconds to pass based on days input
 - Sample value: 5 days
 - Expected Result : 432000 seconds
-5. Write a Python program to display the current date and time.
+5. Write a program to display the current date and time.
 - Sample Output : 2022-01-30 07:34:14
 6. Write a program that calculates the length of a string.
 - Sample value: I am my moon
