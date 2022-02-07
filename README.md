@@ -46,3 +46,16 @@ Validation :
 - At least 1 character from [$#@].
 - Minimum length 6 characters.
 - Maximum length 16 characters.
+
+
+
+WEEK 2 TASKS - Functions:
+1. Write a function that takes one argument. If the function receives value equal to "yes", it should return "Shutting down". Alternatively, if value is equal to "no", then the function should return "Shutdown aborted". Finally, if gets anything other than those inputs, the function should return "Sorry".
+2.  Write a function that accepts 2 arguments, first one is any given data type, second one is user input value. Function should check if the input value satisfies the data type condition of the first argument.
+3. Write a function that checks whether a passed string is palindrome or not.
+Note: A palindrome is a word, phrase, or sequence that reads the same backward as forward.
+Examples:   'Ana voli Milovana',  'madam',  'U Rimu umiru',  'idu ljeta, pate ljudi'  itd.
+4. Write a function to check whether a string is a pangram or not.
+Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
+For example : "The quick brown fox jumps over the lazy dog"
+5. Write a function that invokes a lambda/anonymous function after specific milliseconds. 
