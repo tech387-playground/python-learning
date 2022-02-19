@@ -79,7 +79,7 @@ Choose one of the following monster types:
 
 - Relicts(Superclass)
  1. Crones(Subclass)
- 2 .Leshen(Subclass)
+ 2. Leshen(Subclass)
  3. Fiend(Subclass)
 
 - Elementa(Superclass)
