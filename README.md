@@ -48,6 +48,8 @@ Validation :
 - Maximum length 16 characters.
 
 
+* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+
 
 WEEK 2 TASKS - Functions:
 1. Write a function that takes one argument. If the function receives value equal to "yes", it should return "Shutting down". Alternatively, if value is equal to "no", then the function should return "Shutdown aborted". Finally, if gets anything other than those inputs, the function should return "Sorry".
@@ -59,6 +61,9 @@ Examples:   'Ana voli Milovana',  'madam',  'U Rimu umiru',  'idu ljeta, pate lj
 Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
 For example : "The quick brown fox jumps over the lazy dog"
 5. Write a function that invokes a lambda/anonymous function after specific milliseconds. 
+
+
+* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*
 
 
 WEEK 3 TASK - Object-Oriented programming:
