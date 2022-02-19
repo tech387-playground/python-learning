@@ -59,3 +59,27 @@ Examples:   'Ana voli Milovana',  'madam',  'U Rimu umiru',  'idu ljeta, pate lj
 Note : Pangrams are words or sentences containing every letter of the alphabet at least once.
 For example : "The quick brown fox jumps over the lazy dog"
 5. Write a function that invokes a lambda/anonymous function after specific milliseconds. 
+
+
+WEEK 3 TASK - Object-Oriented programming
+Following task is example inspired by game developers using Object-Oriented Programming. Create Witcher 3 fight simulator using OOP(use all 4 oop principles i.e Inheritance, Polymorphism, Encapsulation and Abstraction). Program should showcase fight between Witcher and any monster that "appears" in the wild. Any type of monster MUST have following attributes: name, hit_points and lives, among others. Also each monster must be capable to take or deal damage among other actions. Little hint, make "Enemy" superclass and start from there.
+Choose one of the following monster types:
+Vampires(Superclass)
+Higher Vampire(Subclass)
+Bruxa(Subclass)
+Ekimmara(Subclass)
+Katakan(Subclass)
+Relicts(Superclass)
+Crones(Subclass)
+Leshen(Subclass)
+Fiend(Subclass)
+Elementa(Superclass)
+Ice Elemental(Subclass)
+Fire Elemental(Subclass)
+Earth Elemental(Subclass)
+For creativity of monster actions, attacks and similar use following link as reference: https://witcher.fandom.com/wiki/The_Witcher_3_bestiary
+For examples of OOP principles use following links:
+ABOUT OOP: https://www.javatpoint.com/python-oops-concepts
+INHERITANCE: https://www.geeksforgeeks.org/inheritance-in-python/
+ENCAPSULATION: https://www.geeksforgeeks.org/encapsulation-in-python/
+POLYMORPHISM: https://www.geeksforgeeks.org/polymorphism-in-python/
