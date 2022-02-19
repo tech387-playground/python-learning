@@ -89,7 +89,7 @@ Choose one of the following monster types:
 
 For creativity of monster actions, attacks and similar use following link as reference: https://witcher.fandom.com/wiki/The_Witcher_3_bestiary
 For examples of OOP principles use following links:
-ABOUT OOP: https://www.javatpoint.com/python-oops-concepts
-INHERITANCE: https://www.geeksforgeeks.org/inheritance-in-python/
-ENCAPSULATION: https://www.geeksforgeeks.org/encapsulation-in-python/
-POLYMORPHISM: https://www.geeksforgeeks.org/polymorphism-in-python/
+- ABOUT OOP: https://www.javatpoint.com/python-oops-concepts
+- INHERITANCE: https://www.geeksforgeeks.org/inheritance-in-python/
+- ENCAPSULATION: https://www.geeksforgeeks.org/encapsulation-in-python/
+- POLYMORPHISM: https://www.geeksforgeeks.org/polymorphism-in-python/
