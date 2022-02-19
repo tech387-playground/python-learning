@@ -61,22 +61,26 @@ For example : "The quick brown fox jumps over the lazy dog"
 5. Write a function that invokes a lambda/anonymous function after specific milliseconds. 
 
 
-WEEK 3 TASK - Object-Oriented programming
+WEEK 3 TASK - Object-Oriented programming:
 Following task is example inspired by game developers using Object-Oriented Programming. Create Witcher 3 fight simulator using OOP(use all 4 oop principles i.e Inheritance, Polymorphism, Encapsulation and Abstraction). Program should showcase fight between Witcher and any monster that "appears" in the wild. Any type of monster MUST have following attributes: name, hit_points and lives, among others. Also each monster must be capable to take or deal damage among other actions. Little hint, make "Enemy" superclass and start from there.
+
 Choose one of the following monster types:
-Vampires(Superclass)
-Higher Vampire(Subclass)
-Bruxa(Subclass)
-Ekimmara(Subclass)
-Katakan(Subclass)
-Relicts(Superclass)
-Crones(Subclass)
-Leshen(Subclass)
-Fiend(Subclass)
-Elementa(Superclass)
-Ice Elemental(Subclass)
-Fire Elemental(Subclass)
-Earth Elemental(Subclass)
+- Vampires(Superclass)
+ 1. Higher Vampire(Subclass)
+ 2. Bruxa(Subclass)
+ 3. Ekimmara(Subclass)
+ 4. Katakan(Subclass)
+
+- Relicts(Superclass)
+ 1. Crones(Subclass)
+ 2 .Leshen(Subclass)
+ 3. Fiend(Subclass)
+
+- Elementa(Superclass)
+ 1. Ice Elemental(Subclass)
+ 2. Fire Elemental(Subclass)
+ 3. Earth Elemental(Subclass)
+
 For creativity of monster actions, attacks and similar use following link as reference: https://witcher.fandom.com/wiki/The_Witcher_3_bestiary
 For examples of OOP principles use following links:
 ABOUT OOP: https://www.javatpoint.com/python-oops-concepts
