@@ -100,4 +100,4 @@ For examples of OOP principles use following links:
 WEEK 4 TASK - Unit and Integration tests:
 
 Create unit 5 unit tests and 2 integration tests for the task from week 3. Use unit test to test particular parts of the program while integration tests to assert that different parts of the program work together as expected. These tests should test the behavior of the given classes, objects their methods and functionalities.
-This segment of Python is one of the less complex features. All you need from material is on this link: https://www.geeksforgeeks.org/getting-started-with-testing-in-python/
+This segment of Python is one of the less complex features. All you need to know about testing in Python is on the following link: https://www.geeksforgeeks.org/getting-started-with-testing-in-python/
