@@ -4,15 +4,13 @@
 
 
 
+from contextlib import redirect_stderr
+import string
+alphabet = string.ascii_lowercase
+list_alpha = list(string.ascii_lowercase)
 def is_it_pangram(recenica):
-    for x in range(97,123):
-        counter = 0
-        
-        for y in range(0, len(recenica)):
-            if(ord(recenica[y])==x):
-                counter+=1
-        
-        if(counter==0):
+    for x in list_alpha:
+        if not x in recenica:
             return 'String nije pangram'
     
     return 'String je pangram'

@@ -1,8 +1,8 @@
 # 5. Write a function that invokes a lambda/anonymous function after specific milliseconds.
 
 
-from cProfile import label
 import threading
+from time import sleep
 
 def fun():
     print('Funckija je pozvana')
@@ -10,9 +10,10 @@ def fun():
 
 
 waiting_time = int(input('Unesi delay time: '))
-print('Vrijeme cekanja u milisekundama iznosi: ')
-print((lambda a : a*1000)(waiting_time))
-
-
-#timer = threading.Timer(waiting_time, fun)
-#timer.start()
+#waiting_time = waiting_time/1000
+#sleep(waiting_time)
+#print('Vrijeme cekanja u satima iznosi: ')
+#print((lambda a : a/60)(waiting_time))
+y = lambda : print('20')
+timer = threading.Timer(waiting_time, y())
+timer.start()
