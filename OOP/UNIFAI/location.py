@@ -21,6 +21,10 @@ class Location:
         print('Location name: '+self.__name+'\n    Sublocations: ')
         for x in self.__sublocations:
             print ('               '+x)
+
+    def get_sublocations(self):
+        return self.__sublocations
+
             
 """        
 var = Location('Floor 1')

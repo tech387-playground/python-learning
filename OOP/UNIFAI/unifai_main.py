@@ -241,6 +241,41 @@ def location_option():
         if(option!=0 and option!=1 and option!=2 and option!=3 and option!=4 and option!=5):
             print('Pogresan unos')
 
+def print_hotel():
+    #HOTEL INFO
+    print('{\n  "name": "'+hotel.get_name()+'"\n  "adress": "'+hotel.get_adress()+'"')
+
+    #USER
+    print('  "users":  [')
+    user: User
+    for user in hotel.get_users():
+        print('    {\n    "name": "'+user.get_user_name()+'"')
+        print('    "role": "'+user.get_user_role()+'"\n    }')
+    print('  ]')
+
+    #DEPARTMENT
+    print('  "departments":  [')
+    dep: Department
+    for dep in hotel.get_departments():
+        print('    {\n    "name": "'+dep.get_department()+'"')
+        print('    }')
+    print('  ]')
+
+    #LOCATION
+    print('  "locations":  [')
+    loc: Location
+    for loc in hotel.get_locations():
+        print('    {\n    "name": "'+loc.get_name()+'"')
+        print('     "sublocations":  [')
+        for sub_loc in loc.get_sublocations():
+            print('            "name": "'+str(sub_loc)+'"')
+        print('    ]')
+        print('    }')  
+    print('  ]')
+
+
+    print('}')
+
 hotel = create_hotel()
 
 option = 1
@@ -256,7 +291,7 @@ while(option!=6):
     if(option==4):
         location_option()
     if(option==5):
-        print('Print all info')
+        print_hotel()
     if(option==6):
         print('Good bye!')
     if(option!=0 and option!=1 and option!=2 and option!=3 and option!=4 and option!=5 and option!=6):
