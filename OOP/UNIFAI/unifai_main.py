@@ -1,4 +1,5 @@
 
+from ticket import Ticket
 from location import Location
 from user import User
 from department import Department
@@ -276,11 +277,54 @@ def print_hotel():
 
     print('}')
 
+def ticket_option():
+    option = -1
+    while(option!=1 and option!=2 and option!=3):
+        print('1.Add new tiket\n2.Print all tickets\n3.Back to main menu')
+        option = int(input('Choose option: '))
+        if(option==1):
+            title = input('Enter ticket title: ')
+            layout = input('Enter layout: ')
+            sub_location = input('Enter sublocation: ')
+            location = Location(layout)
+            location.add_sublocation(sub_location)
+            new_user_name = input('Enter assigne name: ')
+            option2 = 0
+            while(option2!=1 and option2!=2 and option2!=3 and option2!=4):
+                print('Choose the user role:\n1.Admin\n2.Manager\n3.Team Lead\n4.Staff')
+                option2=int(input('Choose user role: '))
+                if(option2==1):
+                    role = 'Admin'
+                if(option2==2):
+                    role = 'Manager'
+                if(option2==3):
+                    role = 'Team Lead'
+                if(option2==4):
+                    role = 'Staff'
+                if((option2!=1 and option2!=2 and option2!=3 and option2!=4)):
+                    print('Wrong input! Try again.')
+            user = User(new_user_name,role)
+            ticket = Ticket(title,location, user)
+            hotel.add_ticket(ticket)
+
+        if(option==2):
+            ticket: Ticket
+            print(len(hotel.get_tickets()))
+            for ticket in hotel.get_tickets():
+                ticket.get_tiket()
+
+
+        if(option==3):
+            break
+
+        if(option!=1 and option!=2 and option!=3):
+            print('Pogresan unos')
+
 hotel = create_hotel()
 
 option = 1
 while(option!=6):
-    print('1.Hotel info\n2.Departmens\n3.Users\n4.Locations\n5.Print all hotel informations\n6.Complete and close')
+    print('1.Hotel info\n2.Departments\n3.Users\n4.Locations\n5.Tickets\n6.Print all hotel informations\n7.Complete and close')
     option = int(input('Choose option: '))
     if(option==1):
         hotel_info_option()
@@ -291,8 +335,10 @@ while(option!=6):
     if(option==4):
         location_option()
     if(option==5):
-        print_hotel()
+        ticket_option()
     if(option==6):
+        print_hotel()
+    if(option==7):
         print('Good bye!')
     if(option!=0 and option!=1 and option!=2 and option!=3 and option!=4 and option!=5 and option!=6):
         print('Pogresan unos')

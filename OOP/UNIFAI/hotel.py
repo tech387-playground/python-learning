@@ -10,8 +10,9 @@ class Hotel:
     __locations = []
     __users = []
     __departments = []
+    __tickets = []
 
-
+ 
     #Hotel info CRUD without DELETE option [nema smisla delete]   
     def __init__(self,name,adress):
         self.__name = name
@@ -72,6 +73,15 @@ class Hotel:
     def edit_location_sublocations(self,index,new_sublocation):
 
         self.__locations[index].add_sublocation(new_sublocation)
+        print('Sve lokacije:', self.__locations)
+        print('alskdaskld',self.__locations[index].get_name())
         
     def delete_location(self,index):
         self.__locations.pop(index)
+
+    #Ticket CREATE AND READ
+    def add_ticket(self,ticket):
+        self.__tickets.append(ticket)
+
+    def get_tickets(self):
+        return self.__tickets

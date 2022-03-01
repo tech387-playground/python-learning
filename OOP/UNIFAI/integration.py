@@ -1,5 +1,10 @@
 import unittest
 import sys
+from OOP.UNIFAI.user import User
+
+
+from location import Location
+from ticket import Ticket
 
 from hotel import Hotel
 sys.path.append(".")
@@ -24,8 +29,14 @@ class TestHotel(unittest.TestCase):
         hotel.add_location('Floor 4')
         hotel.add_location('Floor 5')
         self.assertEqual(len(hotel.get_locations()),5)
+
+    def test_create_ticket(self):
+        location = Location('Floor 1')
+        user = User('Almas','Admin')
+        ticket = Ticket('Tiket 1',location,user)
+        self.assertEqual(ticket.get_ticket_location(),'Floor 1')
     
 
 if __name__ == '__main__':
-       
+    print('testsstss')
     unittest.main()

@@ -12,15 +12,15 @@ class Location:
 
     def add_sublocation(self,sublocation):
         self.__sublocations.append(sublocation)
-        print('Sublokacija '+sublocation+' je dodana u department '+self.__name)
+        print('Sublokacija '+sublocation+' je dodana u lokaciju '+self.__name)
 
     def get_name(self):
         return self.__name
         
     def get_location(self):
         print('Location name: '+self.__name+'\n    Sublocations: ')
-        for x in self.__sublocations:
-            print ('               '+x)
+        for y in self.__sublocations:
+            print ('               '+y)
 
     def get_sublocations(self):
         return self.__sublocations
